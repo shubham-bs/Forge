@@ -1,19 +1,3 @@
-'''from fastapi import APIRouter
-
-router = APIRouter(
-    prefix="/api/v1/agents",
-    tags=["Agents"]
-)
-
-@router.get("")
-def get_agents():
-    return [
-        {
-            "id": 1,
-            "name": "Forge Agent"
-        }
-    ]'''
-    
 from fastapi import APIRouter
 
 from app.models.agent import Agent
